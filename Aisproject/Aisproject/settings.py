@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 
-import django_heroku
+# import django_heroku
 
 # from pathlib import Path
 
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'posts',
     'misaka',
     'django.contrib.humanize',
-    'social_django',
+    # 'social_django',
 
 ]
 
@@ -167,5 +167,5 @@ SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/settings/'
 SOCIAL_AUTH_RAISE_EXCEPTIONS = False
 
 
-# Activate Django-Heroku.
-django_heroku.settings(locals())
+# # Activate Django-Heroku.
+# django_heroku.settings(locals())
